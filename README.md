@@ -1,6 +1,6 @@
 # adversarial-ml
 Adversarial ML
-This repository is based on [yenchenlin](https://github.com/yenchenlin/awesome-adversarial-machine-learning). I will be adding more resources as I come across them. 
+This repository is based on [yenchenlin](https://github.com/yenchenlin/awesome-adversarial-machine-learning) and [tanjuntao](https://github.com/tanjuntao/Adversarial-Machine-Learning). I will be adding more resources as I come across them. 
 
 ## Table of Contents
 
@@ -96,3 +96,43 @@ This repository is based on [yenchenlin](https://github.com/yenchenlin/awesome-a
  * https://www.cambridge.org/core/books/adversarial-machine-learning/C42A9D49CBC626DF7B8E54E72974AA3B
  * https://www.sciencedirect.com/book/9780128240205/adversarial-robustness-for-machine-learning
  * https://christophm.github.io/interpretable-ml-book/adversarial.html
+
+
+### Useful Links
+* https://evademl.org/
+* https://secml.github.io/
+* http://www.cleverhans.io/
+* https://aaai18adversarial.github.io/ 
+* https://www.openmined.org/ 
+* https://www.pluribus-one.it/
+* https://www.ieee-security.org/TC/SPW2018/DLS/
+* https://robust.vision/benchmark
+
+## Other resources
+Link | Type | Description    
+-----|-----|----
+[ cleverhans ]( https://github.com/tensorflow/cleverhans) | Attack & Defense | ` AML` field originator repo , developed by *Goodfellow* & * Papernot * , provides attack methods and defense methods .
+[ foolbox ]( https://github.com/bethgelab/foolbox/) | Attack | The main function is to generate adversarial samples. It implements about **15 ** attack methods and does not provide defense functions .
+[adversarial-robustness- toolbox]( https://github.com/IBM/adversarial-robustness-toolbox) (ART) | Attack & Defense | Provides a large number of attack methods and defense methods, the API is easy to call, and Several methods for detecting adversarial examples are provided .
+[machine_learning_adversarial_ examples]( https://github.com/rodgzilla/machine_learning_adversarial_examples) | Attack | Mainly reproduces the ** FGSM algorithm ** from the paper `Explaning and Harnessing Adversarial Examples` . 
+[Adversarial_Learning_Paper ]( https://github.com/Guo-Yunzhe/Adversarial_Learning_Paper) | awesome | ` AML` related paper list, including `Survey` , `Attack`, `Defense`
+[AdversarialDNN- Playground]( https://github.com/QData/AdversarialDNN-Playground)| Visualization | Visualization of the attack process, and a certain analysis of the attack method at the theoretical level (see the presentation in the warehouse )
+[awesome-adversarial-machine- learning]( https://github.com/yenchenlin/awesome-adversarial-machine-learning) | awesome | Summarize `blogs` , `papers`, `talks` related to `AML`
+[ AdvBox ]( https://github.com/baidu/AdvBox) | Attack & Defense | Baidu products, provide various attack and defense methods, support command line to directly generate adversarial samples ( zero-coding )
+[adversarial- examples]( https://github.com/ifding/adversarial-examples)| Attack | At the theoretical level, several commonly used attack methods are provided; at the practical level, attacks on ** road signs ** .
+[adversarial_ examples]( https://github.com/duoergun0729/adversarial_examples) | Attack | Provides several common attack methods and makes a chart analysis .
+[Adversarial-Examples-Reading- List]( https://github.com/chawins/Adversarial-Examples-Reading-List) | awesome | ` AML` related papers list, including `attacks` , `defenses` . The author is a PhD student at UC Berkeley .
+[ nn_robust_attacks]( https://github.com/carlini/nn_robust_attacks) | Attacks | Paper `Towards Evaluating the Robustness of Neural Networks` code . The author graduated from UC Berkeley with a Ph.D.
+[awesome-adversarial-examples- dl]( https://github.com/chbrian/awesome-adversarial-examples-dl) | awesome | ` AML` paper list, including `Attack` , `Defense`, `Application`
+[ FeatureSqueezing ]( https://github.com/uvasrg/FeatureSqueezing) | Defense | *Detecting Adversarial Examples in Deep Neural Network* . The project stopped maintenance and moved to [ EvadeML -Zoo](http://evademl.org/zoo/)
+[adversarial-example- pytorch]( https://github.com/sarathknv/adversarial-examples-pytorch) | attack | pytorch Realize common attack methods, and provide ** visualization ** function .
+[ EvadeML - Zoo]( https://github.com/mzweilin/EvadeML-Zoo) | Attack & Defense | Provides pre-trained models, common data sets, common attack methods; visualized adversarial examples .
+[robust-physical- attack]( https://github.com/shantse/robust-physical-attack) | Attack | Attack`Faster in realistic situations The R-CNN` target detection model provides `targeted` and ` untargeted` two attack methods .
+[ advertorch ]( https://github.com/BorealisAI/advertorch) | Attack & Defense | [ foolbox ](https://github.com/bethgelab/foolbox/) is a streamlined version , implemented in ` pytorch` , which only provides a part of the attack and defense methods .
+[Non-Targeted-Adversarial- Attacks ]( https://github.com/dongyp13/Non-Targeted-Adversarial-Attacks )| Attack | /c/nips-2017-defense-against-adversarial-attack) `Non-targeted attack` first place .
+[Targeted-Adversarial- Attack]( https://github.com/dongyp13/Targeted-Adversarial-Attack)| Attack | It is also the first place in `Targeted attack` in the NIPS 2017 Attack and Defense Competition , and the author is Tsinghua University * * Zhu Jun ** team .
+[artificial- adversary]( https://github.com/airbnb/artificial-adversary) | Attack | Adversarial examples for text modalities , developed by `airbnb` .
+
+### Related Contests
+* [NIPS 2017: Defense Against Adversarial Attack]( https://www.kaggle.com/c/nips-2017-defense-against-adversarial-attack)
+* [IJCAI-19 Alibaba Artificial Intelligence Contest Algorithm Competition ]( https://tianchi.aliyun.com/competition/entrance/231701/introduction?spm=5176.12281905.5490641.4.358b6bad39hWbP)
