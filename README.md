@@ -7,6 +7,10 @@ This repository is based on [yenchenlin](https://github.com/yenchenlin/awesome-a
  - [Blogs](#blogs)
  - [Papers](#papers)
  - [Talks](#talks)
+ - [Books](#books)
+ - [Links](#links)
+ - [Miscellaneous](#miscellaneous)
+ - [Contests](#contests)
 
 ## Blogs
  * [Breaking Linear Classifiers on ImageNet](http://karpathy.github.io/2015/03/30/breaking-convnets/), A. Karpathy et al.
@@ -98,7 +102,7 @@ This repository is based on [yenchenlin](https://github.com/yenchenlin/awesome-a
  * https://christophm.github.io/interpretable-ml-book/adversarial.html
 
 
-### Useful Links
+## Links
 * https://evademl.org/
 * https://secml.github.io/
 * http://www.cleverhans.io/
@@ -108,7 +112,7 @@ This repository is based on [yenchenlin](https://github.com/yenchenlin/awesome-a
 * https://www.ieee-security.org/TC/SPW2018/DLS/
 * https://robust.vision/benchmark
 
-## Other resources
+## Miscellaneous
 Link | Type | Description    
 -----|-----|----
 [ cleverhans ]( https://github.com/tensorflow/cleverhans) | Attack & Defense | ` AML` field originator repo , developed by *Goodfellow* & * Papernot * , provides attack methods and defense methods .
@@ -133,6 +137,6 @@ Link | Type | Description
 [Targeted-Adversarial- Attack]( https://github.com/dongyp13/Targeted-Adversarial-Attack)| Attack | It is also the first place in `Targeted attack` in the NIPS 2017 Attack and Defense Competition , and the author is Tsinghua University * * Zhu Jun ** team .
 [artificial- adversary]( https://github.com/airbnb/artificial-adversary) | Attack | Adversarial examples for text modalities , developed by `airbnb` .
 
-### Related Contests
+## Contests
 * [NIPS 2017: Defense Against Adversarial Attack]( https://www.kaggle.com/c/nips-2017-defense-against-adversarial-attack)
 * [IJCAI-19 Alibaba Artificial Intelligence Contest Algorithm Competition ]( https://tianchi.aliyun.com/competition/entrance/231701/introduction?spm=5176.12281905.5490641.4.358b6bad39hWbP)
